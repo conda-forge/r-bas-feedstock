@@ -1,4 +1,4 @@
-{% set version = "1.6.0" %}
+{% set version = "1.6.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/BAS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/BAS/BAS_{{ version }}.tar.gz
-  sha256: effaee9ffd5f620dac149f34fb537148d63d3c1bbd97397c8bdacc3213811507
+  sha256: ecfc7f93d4d92d2c7c4dd72cee9b4843999e3b83ed64d46b207eca57d1931a35
 
 build:
   merge_build_host: true  # [win]
