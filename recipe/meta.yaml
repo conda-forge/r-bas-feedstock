@@ -1,4 +1,4 @@
-{% set version = "1.7.1" %}
+{% set version = "1.7.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/BAS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/BAS/BAS_{{ version }}.tar.gz
-  sha256: 28bfbb71ce9e4d76e95a25ab012c9aba1c2c842d207bdad4c935524179cae6c8
+  sha256: 9539bcc8bdaad754c67edbd413b3fe54e05ce8d0f55aa2e01f50000880c07169
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
