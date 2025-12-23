@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/BAS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/BAS/BAS_{{ version }}.tar.gz
-  sha256: 6c7cfd53800c1f1cf126ab094b47da474e0bd4e035a194bd06da3dfa869428e8
+  sha256: 7e4a9f73585844e4cbc462fcb94202a0a91f8c01dd011bb98bc2365433d213f9
 
 build:
   number: 0
